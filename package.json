@@ -5,7 +5,7 @@
   "scripts": {
     "test": "ava --require babel-register && xo --ignore example.js --ignore index.js",
     "setup": "rollup -f cjs main.js --output index.js",
-    "cover-test": "nyc ava ava --require babel-register && xo --ignore example.js --ignore index.js",
+    "cover-test": "nyc ava --require babel-register && xo --ignore example.js --ignore index.js",
     "cover-publish": "nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [],
