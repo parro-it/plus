@@ -1,4 +1,3 @@
-import 'babel-register';
 import test from 'ava';
 import plus from './main';
 
